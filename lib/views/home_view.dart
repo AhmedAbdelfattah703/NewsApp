@@ -1,9 +1,13 @@
+import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
+import 'package:news_app_ui_setup/services/news_service.dart';
 import 'package:news_app_ui_setup/widgets/categories_listview.dart';
+import 'package:news_app_ui_setup/widgets/news_list_view_builder.dart';
 // import 'package:news_app_ui_setup/widgets/news_container.dart';
 
 
 // import '../widgets/categories_listview.dart';
+import '../models/article_model.dart';
 import '../widgets/news_listview.dart';
 
 class HomeView extends StatelessWidget {
@@ -49,12 +53,14 @@ class HomeView extends StatelessWidget {
             height: 16,
           ) ,
           ),
-          NewsListView(),
+          NewsListViewBuilder(),
         ],
       ),
     );
   }
 }
+
+
 
 
 
