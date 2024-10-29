@@ -5,7 +5,7 @@ import 'package:news_app_ui_setup/views/home_view.dart';
 //import 'package:news_app/widgets/category_card.dart';
 // import 'package:news_app_ui_setup/main.dart';
 void main() {
-  NewsService(Dio()).getNews();
+  
   runApp(const NewsApp());
 }
 

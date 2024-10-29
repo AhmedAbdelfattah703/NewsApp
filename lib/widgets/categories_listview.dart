@@ -9,14 +9,14 @@ class CategoriesListView extends StatelessWidget {
     super.key,
   });
     List<CategoryModel>categores = [
-      CategoryModel(imageAssetUrl: 'assets/technology.jpeg', categoryName: 'categoryName'),
-      CategoryModel(imageAssetUrl: 'assets/technology.jpeg', categoryName: 'categoryName'),
-      CategoryModel(imageAssetUrl: 'assets/technology.jpeg', categoryName: 'categoryName'),
-      CategoryModel(imageAssetUrl: 'assets/technology.jpeg', categoryName: 'categoryName'),
-      CategoryModel(imageAssetUrl: 'assets/technology.jpeg', categoryName: 'categoryName'),
-      CategoryModel(imageAssetUrl: 'assets/technology.jpeg', categoryName: 'categoryName'),
-      CategoryModel(imageAssetUrl: 'assets/technology.jpeg', categoryName: 'categoryName'),
-      CategoryModel(imageAssetUrl: 'assets/technology.jpeg', categoryName: 'categoryName'),
+      CategoryModel(imageAssetUrl: 'assets/technology.jpeg', categoryName: 'business'),
+      CategoryModel(imageAssetUrl: 'assets/technology.jpeg', categoryName: 'entertainment'),
+      CategoryModel(imageAssetUrl: 'assets/technology.jpeg', categoryName: 'health'),
+      CategoryModel(imageAssetUrl: 'assets/technology.jpeg', categoryName: 'science'),
+      CategoryModel(imageAssetUrl: 'assets/technology.jpeg', categoryName: 'sports'),
+      CategoryModel(imageAssetUrl: 'assets/technology.jpeg', categoryName: 'technology'),
+      CategoryModel(imageAssetUrl: 'assets/technology.jpeg', categoryName: 'general'),
+      //CategoryModel(imageAssetUrl: 'assets/technology.jpeg', categoryName: 'categoryName'),
       
     ];
   @override
